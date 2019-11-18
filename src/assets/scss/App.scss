@@ -1,0 +1,41 @@
+$bg-color: rgba(240, 239, 236, 0.2);
+$box-shadow-color: 0 5px 23px 1px rgba(0, 0, 0, 0.25);
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+}
+
+a {
+  line-height: 32px;
+  vertical-align: top;
+}
+
+#wicon {
+  width: 32px;
+  height: 32px;
+}
+
+.container {
+  max-width: 1170px;
+  width: fit-content;
+  padding: 50px 25px;
+  margin: 0 auto;
+}
+
+.app {
+  display: block;
+  box-shadow: $box-shadow-color;
+  padding: 2rem 3rem;
+  border-radius: 1rem;
+  position: relative;
+  min-height: 15rem;
+  background-color: $bg-color;
+}
